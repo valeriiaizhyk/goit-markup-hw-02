@@ -115,7 +115,6 @@ body {
   color: var(--white, #fff);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07em;
   letter-spacing: 0.02em;
 }
@@ -127,7 +126,6 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 .values {
   font-weight: 500;
@@ -155,7 +153,6 @@ body {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -170,7 +167,6 @@ body {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -230,7 +226,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 .portfolio-sec-subtitle {
   color: var(--navyblue, #2e2f42);
