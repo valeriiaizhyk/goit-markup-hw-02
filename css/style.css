@@ -218,6 +218,7 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
+
 .portfolio {
   background-color: var(--white, #fff);
 }
