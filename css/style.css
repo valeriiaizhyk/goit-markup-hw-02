@@ -35,13 +35,10 @@
   --line-height: 1.2em;
   --line-height: 1.11em;
   --line-height: 1.17em;
-
   --letter-spacing: -0.02em;
   --letter-spacing: -0.03em;
   --letter-spacing: -0.04em;
-
   --text-transform: uppercase;
-
   --background-color: #fff;
   --background-color: #404bbf;
   --background-color: #2e2f42;
@@ -87,15 +84,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.header-logo-iris {
-  color: #2e2f42;
-  background-color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+
+.header-logo-second {
+  color: var(--navyblue, #2e2f42);
 }
 
 .header-link {
@@ -106,12 +97,15 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-address-link {
+.header-mailto {
+  font-style: normal;
+}
+
+.header-mailto-link {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .hero {
@@ -136,7 +130,6 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-
 .values {
   font-weight: 500;
   font-size: 20px;
@@ -156,7 +149,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
 }
-
 .product {
   background-color: var(--white, #fff);
 }
@@ -172,7 +164,6 @@ body {
 .product-img {
   color: #e7e9fc;
 }
-
 .team {
   background-color: var(--cloud, #f4f4fd);
 }
@@ -185,7 +176,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
 .team-item {
   background-color: var(--white, #fff);
 }
@@ -207,12 +197,11 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-
 .footer {
   background-color: var(--navyblue, #2e2f42);
 }
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -220,8 +209,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo-iris {
-  color: var(--iris, #4d5ae5);
+.footer-logo-second {
+  color: var(--cloud, #f4f4fd);
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -229,7 +218,6 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-
 .portfolio {
   background-color: var(--white, #fff);
 }
@@ -237,13 +225,13 @@ body {
   background-color: var(--cloud, #f4f4fd);
   color: #4d5ae5;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
-
 .portfolio-sec-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
